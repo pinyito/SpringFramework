@@ -11,7 +11,7 @@
 	<groupId>com.eria-pinyi-othieno</groupId>
 	<artifactId>srping-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>srping-framework</name>
+	<name>spring-framework</name>
 	<description>Introduction to the spring framework with maven</description>
 	<properties>
 		<java.version>17</java.version>
