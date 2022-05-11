@@ -1,5 +1,9 @@
 package com.eriapinyiothieno.srpingframework;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BinarySearchImpl {
     //Demonstrating the concept of tight and loose coupling
 
@@ -11,7 +15,9 @@ public class BinarySearchImpl {
     //Using an interface further detaches the sorting algorithm to allow flexibility in using various sorting algorithms
 //    SortingAlgorithm sortingAlgorithm = new BubbleSort();
 //    SortingAlgorithm sortingAlgorithm = new QuickSort();
+    @Autowired
     private SortingAlgorithm sortAlgo;
+
     public BinarySearchImpl(SortingAlgorithm sortAlgo){
         this.sortAlgo = sortAlgo;
     }
