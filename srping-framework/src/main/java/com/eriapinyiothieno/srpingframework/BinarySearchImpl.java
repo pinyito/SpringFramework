@@ -19,6 +19,7 @@ public class BinarySearchImpl {
     private SortingAlgorithm sortAlgo;
 
     public BinarySearchImpl(SortingAlgorithm sortAlgo){
+
         this.sortAlgo = sortAlgo;
     }
     //2. Search array
